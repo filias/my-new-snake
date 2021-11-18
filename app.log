@@ -1,0 +1,101 @@
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 129-875-878
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:21:22] "GET / HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in '/home/runner/my-new-snake/server_logic.py', reloading
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 129-875-878
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:21:38] "GET / HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in '/home/runner/my-new-snake/server_logic.py', reloading
+werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+werkzeug - INFO -  * Running on http://172.18.0.8:8080/ (Press CTRL+C to quit)
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 129-875-878
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:22:47] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:22:47] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:22:54] "POST /start HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:22:55] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:22:55] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:22:55] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:22:56] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:22:56] "POST /end HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:23:01] "POST /start HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:23:01] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:23:02] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:23:02] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:23:02] "POST /end HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in '/home/runner/my-new-snake/server.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 129-875-878
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:24:09] "GET / HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in '/home/runner/my-new-snake/server.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+werkzeug - INFO -  * Running on http://172.18.0.8:8080/ (Press CTRL+C to quit)
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 129-875-878
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:02] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:02] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:08] "POST /start HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 0: right picked from all valid options in ['up', 'down', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:08] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 1: down picked from all valid options in ['up', 'down', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:09] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 2: down picked from all valid options in ['down', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:09] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 3: left picked from all valid options in ['down', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:09] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 4: left picked from all valid options in ['up', 'down', 'left']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:09] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 5: up picked from all valid options in ['up', 'down', 'left']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:10] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 6: up picked from all valid options in ['up', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:10] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 7: up picked from all valid options in ['up', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:10] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 8: right picked from all valid options in ['up', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:11] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 9: up picked from all valid options in ['up', 'down', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:11] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 695c7021-18bc-4203-a029-82048930f1fc MOVE 10: up picked from all valid options in ['up', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:11] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:25:11] "POST /end HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:31:25] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:31:26] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:21] "POST /start HTTP/1.1" 200 -
+root - DEBUG - 8bcc130d-0d3b-4d2f-9851-ec95c935ce61 MOVE 0: right picked from all valid options in ['up', 'down', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:21] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 8bcc130d-0d3b-4d2f-9851-ec95c935ce61 MOVE 1: right picked from all valid options in ['up', 'down', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:21] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:34] "POST /end HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:53] "POST /start HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 0: down picked from all valid options in ['up', 'down', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:53] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 1: left picked from all valid options in ['down', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:53] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 2: left picked from all valid options in ['up', 'down', 'left']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:54] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 3: left picked from all valid options in ['up', 'down', 'left']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:54] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 4: up picked from all valid options in ['up', 'down', 'left']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:54] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 5: left picked from all valid options in ['up', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:54] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 6: down picked from all valid options in ['up', 'down', 'left']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:55] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 7: left picked from all valid options in ['down', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:55] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 8: up picked from all valid options in ['up', 'down', 'left']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:55] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 9: left picked from all valid options in ['up', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:55] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 10: up picked from all valid options in ['up', 'down', 'left']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:56] "POST /move HTTP/1.1" 200 -
+root - DEBUG - 2049a86b-add8-49b7-8dcf-547cc35f4e3e MOVE 11: up picked from all valid options in ['up', 'left', 'right']
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:56] "POST /move HTTP/1.1" 200 -
+werkzeug - INFO - 172.18.0.1 - - [18/Nov/2021 18:48:58] "POST /end HTTP/1.1" 200 -

@@ -24,10 +24,10 @@ def handle_info():
     print("INFO")
     return {
         "apiversion": "1",
-        "author": "",  # TODO: Your Battlesnake Username
-        "color": "#888888",  # TODO: Personalize
-        "head": "default",  # TODO: Personalize
-        "tail": "default",  # TODO: Personalize
+        "author": "filipa",  # TODO: Your Battlesnake Username
+        "color": "#22F5F5",  # TODO: Personalize
+        "head": "silly",  # TODO: Personalize
+        "tail": "mystic-moon",  # TODO: Personalize
     }
 
 
@@ -70,8 +70,9 @@ def end():
 
 
 if __name__ == "__main__":
-    logging.getLogger("werkzeug").setLevel(logging.ERROR)
-
+    logging.basicConfig(level=logging.DEBUG, filename='app.log', filemode='a', format='%(name)s - %(levelname)s - %(message)s')
+    #logging.getLogger("werkzeug").setLevel(logging.ERROR)
+    
     print("Starting Battlesnake Server...")
     port = int(os.environ.get("PORT", "8080"))
     app.run(host="0.0.0.0", port=port, debug=True)

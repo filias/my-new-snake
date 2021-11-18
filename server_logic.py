@@ -1,3 +1,4 @@
+import logging 
 import random
 from typing import List, Dict
 
@@ -76,4 +77,5 @@ def choose_move(data: dict) -> str:
 
     print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
 
+    logging.debug(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
     return move
